@@ -16,6 +16,8 @@
 		5209007923D78B11004954CD /* MultiPageLandscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209007823D78B11004954CD /* MultiPageLandscapeUITests.swift */; };
 		5209008E23D78C84004954CD /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5209008C23D78C84004954CD /* home.jpg */; };
 		5209008F23D78C84004954CD /* splashHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 5209008D23D78C84004954CD /* splashHome.png */; };
+		5269961323D7958D00314F26 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269961223D7958D00314F26 /* GameViewController.swift */; };
+		5269961523D795A500314F26 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269961423D795A500314F26 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5209007A23D78B11004954CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5209008C23D78C84004954CD /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
 		5209008D23D78C84004954CD /* splashHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashHome.png; sourceTree = "<group>"; };
+		5269961223D7958D00314F26 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5269961423D795A500314F26 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				5209005A23D78B10004954CD /* ViewController.swift */,
+				5269961223D7958D00314F26 /* GameViewController.swift */,
+				5269961423D795A500314F26 /* SettingViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -297,7 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5209005B23D78B10004954CD /* ViewController.swift in Sources */,
+				5269961323D7958D00314F26 /* GameViewController.swift in Sources */,
 				5209005923D78B10004954CD /* AppDelegate.swift in Sources */,
+				5269961523D795A500314F26 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
